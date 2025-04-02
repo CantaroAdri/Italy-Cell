@@ -83,7 +83,7 @@
   box-shadow: 2px 2px 0px 1px gray;
 }
 
-/* PAGINA 2 REDES SOCIALES */
+/* PAGINA 2 REDES SOCIALES CONTACTOS*/
 
 #icons-redes {
   display: flex;
@@ -131,20 +131,26 @@
   font-family: "DM Serif Display", serif;
 }
 
+/* PAGINA CURSOS!! */
 /* TEXTO DESCRIPTIVO DEL CURSO */
 .text-curso {
-  display: flex;
-  text-align: center;
-  justify-items: center;
+  background-image: url(img/fondo.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
   text-decoration: underline;
   text-align: center;
   font-family: "DM Serif Display", serif;
 }
 
+.text-curso p {
+  width: 75%;
+  position: relative;
+  left: 10%;
+  padding: 20px;
+}
+
 .fondo-page {
-  z-index: -10;
-  width: 100%;
-  height: 1000px;
+  background-image: url(img/fondo.webp);
 }
 
 /* "PAGINA REGISTO" SECCION DE FORMULARIO PARA REGISTRO*/
