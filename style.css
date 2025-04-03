@@ -88,7 +88,6 @@
 #icons-redes {
   display: flex;
   text-align: center;
-  justify-content: center;
   justify-content: space-around;
 
   font-size: 25px;
@@ -209,20 +208,42 @@
   display: flex;
   margin: 10px;
 }
-/*
-#img-productos p {
-  position: relative;
-  top: 40px;
-  left: 480px;
-  width: 150px;
 
-  text-align: center;
-  font-size: 25px;
-  border: 1px solid black;
-  border-radius: 8px;
+@media (max-width: 576px) {
+  /* PAGINA CONTACTOS */
+  #enlaces {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 40px;
+  }
+
+  .sub-titulo {
+    margin: 30px;
+  }
+
+  #icons-redes {
+    flex-wrap: wrap;
+  }
+
+  /* PAGINA DE PRODUCTOS */
+  #img-productos {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  #img-productos p {
+    position: relative;
+    font-size: 30px;
+    width: 50%;
+    left: 20%;
+    border: 1px solid lightgray;
+  }
+
+  #img-productos img {
+    position: relative;
+    left: 10%;
+  }
 }
-
-#img-productos p:hover {
-  background-color: var(--azulOscuro);
-  color: white;
-} */
