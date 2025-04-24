@@ -1,0 +1,13 @@
+/* UBICACION EN GOOGLE MAPS  */
+#maps {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+}
+
+.text-maps {
+  text-align: center;
+  justify-items: center;
+  text-decoration: underline;
+  font-family: "DM Serif Display", serif;
+}

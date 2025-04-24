@@ -1,0 +1,29 @@
+/* PAGINA 2 REDES SOCIALES CONTACTOS*/
+#icons-redes {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+
+  font-size: 25px;
+  a {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+    text-decoration: none;
+    border: 2px solid white;
+    box-shadow: 0px 0px 10px #003049;
+    margin: 10px;
+
+    color: #780000;
+  }
+  span span {
+    display: flex;
+    text-align: center;
+    justify-items: center;
+
+    margin: 10px;
+    padding: 30px;
+    font-size: 25px;
+  }
+}

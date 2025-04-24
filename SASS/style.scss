@@ -1,0 +1,75 @@
+@use "./titulo";
+@use "./main";
+@use "./redes";
+@use "./maps";
+@use "./cursos";
+@use "./formulario";
+@use "./productos";
+@use "./footer";
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --azulClaro: #669bbc;
+  --azulOscuro: #003049;
+  --bordo: #780000;
+  --bordoClaro: #c1121f;
+  --naranja: #fccc84;
+}
+
+// .fondo-page {
+//   background-image: url(img/fondo.webp);
+// }
+
+@media (max-width: 576px) {
+  /* PAGINA CONTACTOS */
+  #enlaces {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 40px;
+  }
+
+  .sub-titulo {
+    margin: 30px;
+  }
+
+  #icons-redes {
+    flex-wrap: wrap;
+  }
+
+  /* PAGINA DE PRODUCTOS */
+  #img-productos {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  #img-productos p {
+    position: relative;
+    font-size: 30px;
+    width: 50%;
+    left: 25%;
+    text-align: center;
+    border: 1px solid lightgray;
+  }
+
+  #img-productos img {
+    position: relative;
+    left: 10%;
+  }
+
+  /* PAGINA FORMULARIO */
+  #formulario {
+    width: 75%;
+    left: 7%;
+  }
+
+  #formulario label {
+    padding: 5px 5px;
+  }
+}

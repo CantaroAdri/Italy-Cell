@@ -1,0 +1,22 @@
+/* PAGINA PRODUCTOS IMG */
+#img-productos {
+  img {
+    display: grid;
+    flex-wrap: wrap;
+
+    margin: 60px;
+    width: 50%;
+    height: 50%;
+    border: 1px solid #780000;
+
+    &:hover {
+      box-shadow: 3px 3px 13px 13px rgb(63, 63, 63);
+    }
+  }
+  span {
+    align-items: center;
+    font-size: 25px;
+    display: flex;
+    margin: 50px;
+  }
+}

@@ -1,0 +1,14 @@
+/* PAGINA CURSOS!! */
+/* TEXTO DESCRIPTIVO DEL CURSO */
+.text-curso {
+  background-image: url(img/fondo.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-decoration: underline;
+  text-align: center;
+  font-family: "DM Serif Display", serif;
+  p {
+    position: relative;
+    padding: 20px;
+  }
+}

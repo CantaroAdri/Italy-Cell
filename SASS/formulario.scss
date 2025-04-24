@@ -1,0 +1,28 @@
+/* "PAGINA REGISTO" SECCION DE FORMULARIO PARA REGISTRO*/
+
+.fondo {
+  background-image: url(img/fondo-registro.jpg);
+}
+
+#formulario {
+  position: relative;
+  width: 50%;
+  left: 25%;
+  margin: 30px;
+
+  text-align: center;
+  border: 2px solid white;
+  border-radius: 10px;
+  label {
+    background-color: lightgrey;
+    border-radius: 4px;
+    box-shadow: 5px 5px 10px black;
+  }
+  button {
+    &:hover {
+      background-color: #003049;
+      color: white;
+      box-shadow: 5px 5px 10px black;
+    }
+  }
+}

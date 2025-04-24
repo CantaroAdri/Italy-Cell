@@ -1,19 +1,4 @@
-* {
-  padding: 0;
-  margin: 0;
-}
-
-/* PALETA DE COLORES */
-:root {
-  --azulClaro: #669bbc;
-  --azulOscuro: #003049;
-  --bordo: #780000;
-  --bordoClaro: #c1121f;
-  --naranja: #fccc84;
-}
-
-/* TITULO PRINCIPAL Y ENLACES */
-#titulo {
+header h1 {
   text-align: center;
   font-size: 25px;
 }
@@ -24,31 +9,25 @@
   align-items: center;
   margin: 40px;
 }
-
+#enlaces li {
+  display: inline;
+  width: 100%;
+  margin: 20px;
+}
 #enlaces a {
   text-decoration: none;
   color: white;
   border: 2px solid black;
   box-shadow: 3px 3px 8px gray;
-
   width: 100%;
   padding: 3px;
 }
-
 #enlaces a:hover {
   background-color: lightgray;
   color: black;
 }
 
-#enlaces li {
-  display: inline;
-
-  width: 100%;
-  margin: 20px;
-}
-
 /* MAIN, SECCION DE SERVICIOS */
-
 .sub-titulo {
   text-align: center;
   padding: 10px;
@@ -61,22 +40,18 @@
   flex-direction: column;
   justify-content: center;
 }
-
 #servicios article {
   align-items: center;
   justify-items: center;
-
   border: 1px solid black;
   box-shadow: 2px 2px 0px 10px #003049;
   text-align: center;
   margin: 10px;
 }
-
 #servicios p {
   background-color: var(--naranja);
   display: flex;
   align-items: center;
-
   width: 450px;
   text-align: center;
   margin: 10px;
@@ -84,36 +59,29 @@
 }
 
 /* PAGINA 2 REDES SOCIALES CONTACTOS*/
-
 #icons-redes {
   display: flex;
   text-align: center;
   justify-content: space-around;
-
   font-size: 25px;
 }
-
-#icons-redes span span {
-  display: flex;
-  text-align: center;
-  justify-items: center;
-
-  margin: 10px;
-  padding: 30px;
-  font-size: 25px;
-}
-
 #icons-redes a {
   display: flex;
   text-align: center;
   justify-content: center;
-
   text-decoration: none;
   border: 2px solid white;
   box-shadow: 0px 0px 10px #003049;
   margin: 10px;
-
   color: #780000;
+}
+#icons-redes span span {
+  display: flex;
+  text-align: center;
+  justify-items: center;
+  margin: 10px;
+  padding: 30px;
+  font-size: 25px;
 }
 
 /* UBICACION EN GOOGLE MAPS  */
@@ -140,20 +108,12 @@
   text-align: center;
   font-family: "DM Serif Display", serif;
 }
-
 .text-curso p {
-  width: 75%;
   position: relative;
-  left: 10%;
   padding: 20px;
 }
 
-.fondo-page {
-  background-image: url(img/fondo.webp);
-}
-
 /* "PAGINA REGISTO" SECCION DE FORMULARIO PARA REGISTRO*/
-
 .fondo {
   background-image: url(img/fondo-registro.jpg);
 }
@@ -163,53 +123,41 @@
   width: 50%;
   left: 25%;
   margin: 30px;
-
   text-align: center;
   border: 2px solid white;
   border-radius: 10px;
 }
-
+#formulario label {
+  background-color: lightgrey;
+  border-radius: 4px;
+  box-shadow: 5px 5px 10px black;
+}
 #formulario button:hover {
   background-color: #003049;
   color: white;
   box-shadow: 5px 5px 10px black;
 }
 
-#formulario label {
-  background-color: lightgrey;
-  border-radius: 4px;
-  box-shadow: 5px 5px 10px black;
-}
-
 /* PAGINA PRODUCTOS IMG */
-#img-productos {
-  display: grid;
-  grid-template-columns: 50% 50%;
-  flex-flow: column;
-}
-
 #img-productos img {
   display: grid;
   flex-wrap: wrap;
-
   margin: 60px;
   width: 50%;
   height: 50%;
   border: 1px solid #780000;
 }
-
 #img-productos img:hover {
   box-shadow: 3px 3px 13px 13px rgb(63, 63, 63);
 }
-
 #img-productos span {
   align-items: center;
   font-size: 25px;
   display: flex;
-  margin: 10px;
+  margin: 50px;
 }
 
-/* FOOTER */
+/* PIE DE PAGINAS */
 footer {
   margin: 10px;
   padding: 10px;
@@ -217,7 +165,19 @@ footer {
   text-align: center;
 }
 
-/* MEDIA QUERY */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --azulClaro: #669bbc;
+  --azulOscuro: #003049;
+  --bordo: #780000;
+  --bordoClaro: #c1121f;
+  --naranja: #fccc84;
+}
+
 @media (max-width: 576px) {
   /* PAGINA CONTACTOS */
   #enlaces {
@@ -227,42 +187,38 @@ footer {
     align-items: center;
     margin: 40px;
   }
-
   .sub-titulo {
     margin: 30px;
   }
-
   #icons-redes {
     flex-wrap: wrap;
   }
-
   /* PAGINA DE PRODUCTOS */
   #img-productos {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
   }
-
   #img-productos p {
     position: relative;
     font-size: 30px;
     width: 50%;
-    left: 20%;
+    left: 25%;
+    text-align: center;
     border: 1px solid lightgray;
   }
-
   #img-productos img {
     position: relative;
     left: 10%;
   }
-
   /* PAGINA FORMULARIO */
   #formulario {
     width: 75%;
     left: 7%;
   }
-
   #formulario label {
     padding: 5px 5px;
   }
 }
+
+/*# sourceMappingURL=style.css.map */
