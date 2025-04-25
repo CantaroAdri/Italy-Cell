@@ -26,21 +26,57 @@
     <header>
       <div id="titulo">
         <h1>ITALY CELL</h1>
-
       </div>
-      <nav>
-        <div id="enlaces">
-          <li><a class="btn btn-secondary" href="../index.html">Inicio</a></li>
-          <li>
-            <a class="btn btn-secondary" href="contacto.html">Contacto</a>
-          </li>
-          <li><a class="btn btn-secondary" href="cursos.html">Cursos</a></li>
-          <li>
-            <a class="btn btn-secondary" href="#">Productos</a>
-          </li>
-          <li>
-            <a class="btn btn-secondary" href="registro.html">Registro</a>
-          </li>
+      <nav id="enlaces" class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  class="nav-link active btn btn-secondary"
+                  href="../index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active btn btn-secondary"
+                  href="contacto.html"
+                  >Contacto</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active btn btn-secondary" href="cursos.html"
+                  >Cursos</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active btn btn-secondary"
+                  href="productos.html"
+                  >Productos</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active btn btn-secondary"
+                  href="registro.html"
+                  >Registro</a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
       </nav>
     </header>
@@ -48,7 +84,7 @@
     <main>
       <h2 class="sub-titulo">Herramientas para equipar tu laboratorio</h2>
       <div id="img-productos">
-        <section >
+        <section>
           <img
             src="../img/productos/microscopio KaiLiwei.jpg"
             alt="microscopio KaiLiwei"
@@ -77,7 +113,7 @@
         </section>
         <section>
           <img src="../img/productos/multimetro.png" alt="multimetro digital" />
-          <span>MMULTIMETRO DIGITAL 4 DIGITOS</span>
+          <span>MULTIMETRO DIGITAL 4 DIGITOS</span>
           <p>Comprar</p>
         </section>
         <section>
@@ -101,23 +137,25 @@
           <span>PLANCHA SEPARADORA DE GLASS Sunshine S918k</span>
           <p>Comprar</p>
         </section>
-      </section>
+      </div>
+      <footer>
+        <i>
+          En <strong> Italy Cell</strong>, somos expertos en la reparación de
+          celulares, Notebook y Consolas. Ofrecemos un servicio completo, rápido
+          y confiable para que puedas volver a disfrutar de tu dispositivo sin
+          problemas.
+        </i>
+        <p>
+          <strong
+            >Podes contactarnos a nuestro whatsapp o por redes sociales</strong
+          >
+        </p>
+        <img src="../img/icons-whatsapp.png" alt="whatsapp" />
+        <img src="../img/icons-instagram.png" alt="instagram" />
+        <img src="../img/icons-facebook.png" alt="facebook" />
+      </footer>
     </main>
-    <footer>
-      <i>
-        En <strong> Italy Cell</strong>, somos exiertos en la reparación de celulares, Notebook y
-        Consolas. Ofrecemos un servicio completo, rápido y confiable para que
-        puedas volver a disfrutar de tu dispositivo sin problemas.
-      </i>
-      <p>
-        <strong
-          >Podes contactarnos a nuestro whatsapp o por redes sociales</strong
-        >
-      </p>
-      <img src="../img/icons-whatsapp.png" alt="whatsapp" />
-      <img src="../img/icons-instagram.png" alt="instagram" />
-      <img src="../img/icons-facebook.png" alt="facebook" />
-    </footer>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"

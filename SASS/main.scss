@@ -5,6 +5,13 @@
   padding: 10px;
   margin: 20px;
   background-color: lightblue;
+
+  transition: background-image 1s ease-in-out;
+
+  &:hover {
+    background-image: radial-gradient(circle, blue, blueviolet);
+    color: white;
+  }
 }
 
 #servicios {

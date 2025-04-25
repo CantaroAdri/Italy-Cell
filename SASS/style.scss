@@ -24,6 +24,58 @@
 //   background-image: url(img/fondo.webp);
 // }
 
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+    justify-content: space-around;
+  }
+
+  #img-productos {
+    display: grid;
+    align-items: stretch;
+    grid-template-columns: 1fr 1fr;
+
+    p {
+      position: relative;
+      font-size: 30px;
+      width: 50%;
+      left: 10%;
+      text-align: center;
+      border: 1px solid lightgray;
+    }
+  }
+  .text-curso {
+    p {
+      position: relative;
+      width: 60%;
+
+      left: 20%;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  #img-productos {
+    position: relative;
+    width: 80%;
+    left: 20%;
+
+    p {
+      position: relative;
+      font-size: 30px;
+      width: 50%;
+      left: 10%;
+      text-align: center;
+      border: 1px solid lightgray;
+
+      // &:hover {
+      //   background-color: #669bbc;
+      //   border: 1px solid #003049;
+    }
+  }
+}
+
 @media (max-width: 576px) {
   /* PAGINA CONTACTOS */
   #enlaces {
@@ -71,5 +123,15 @@
 
   #formulario label {
     padding: 5px 5px;
+  }
+}
+
+@media (max-width: 412px) {
+  .sub-titulo {
+    margin: 5px;
+  }
+
+  #servicios p {
+    width: 90%;
   }
 }
