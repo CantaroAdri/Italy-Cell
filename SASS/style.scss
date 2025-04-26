@@ -20,10 +20,6 @@
   --naranja: #fccc84;
 }
 
-// .fondo-page {
-//   background-image: url(img/fondo.webp);
-// }
-
 @media (min-width: 992px) {
   .navbar-expand-lg .navbar-collapse {
     display: flex !important;
@@ -68,10 +64,15 @@
       left: 10%;
       text-align: center;
       border: 1px solid lightgray;
-
-      // &:hover {
-      //   background-color: #669bbc;
-      //   border: 1px solid #003049;
+    }
+    span {
+      position: relative;
+      left: -50px;
+    }
+  }
+  #enlaces {
+    a {
+      width: 90%;
     }
   }
 }
@@ -84,6 +85,10 @@
     flex-wrap: wrap;
     align-items: center;
     margin: 40px;
+
+    a {
+      width: 90%;
+    }
   }
 
   .sub-titulo {
@@ -99,20 +104,19 @@
     display: flex;
     flex-wrap: wrap;
     text-align: center;
-  }
 
-  #img-productos p {
-    position: relative;
-    font-size: 30px;
-    width: 50%;
-    left: 25%;
-    text-align: center;
-    border: 1px solid lightgray;
-  }
+    p {
+      position: relative;
+      font-size: 30px;
+      width: 70%;
+      left: 5%;
+      text-align: center;
+      border: 1px solid lightgray;
+    }
 
-  #img-productos img {
-    position: relative;
-    left: 10%;
+    img {
+      position: relative;
+    }
   }
 
   /* PAGINA FORMULARIO */
@@ -126,12 +130,34 @@
   }
 }
 
-@media (max-width: 412px) {
+@media (max-width: 430px) {
   .sub-titulo {
     margin: 5px;
   }
 
   #servicios p {
     width: 90%;
+  }
+
+  // productos
+
+  #img-productos {
+    img {
+      position: relative;
+      left: -10px;
+      height: 40%;
+      top: -30px;
+    }
+    span {
+      position: relative;
+      left: -50px;
+      width: 70%;
+      top: -50px;
+    }
+    p {
+      position: relative;
+      left: -10px;
+      top: -70px;
+    }
   }
 }
