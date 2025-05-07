@@ -128,6 +128,10 @@ header h1 {
   position: relative;
   padding: 20px;
 }
+.text-curso img {
+  width: 40%;
+  float: left;
+}
 
 /* "PAGINA REGISTO" SECCION DE FORMULARIO PARA REGISTRO*/
 .fondo {
@@ -155,6 +159,11 @@ header h1 {
   background-color: #003049;
   color: white;
   box-shadow: 5px 5px 10px black;
+}
+
+#enviar {
+  background-color: #248867;
+  color: white;
 }
 
 /* PAGINA PRODUCTOS IMG */
@@ -303,6 +312,7 @@ footer {
     font-size: 30px;
     width: 50%;
     left: 10%;
+    top: -30px;
     text-align: center;
     border: 1px solid lightgray;
   }
@@ -357,6 +367,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
+    bottom: 50px;
   }
   #img-productos p {
     position: relative;
@@ -389,7 +400,6 @@ footer {
     position: relative;
     left: -10px;
     height: 40%;
-    top: -30px;
   }
   #img-productos span {
     position: relative;
